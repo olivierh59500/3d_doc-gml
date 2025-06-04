@@ -1,0 +1,9 @@
+surface_free(surf_chessboard);
+surface_free(surf_chessboard_mask);
+surface_free(surf_scroll1);
+surface_free(surf_scroll2);
+surface_free(surf_scroll3);
+surface_free(surf_scroll5);
+ds_list_destroy(scroll_x);
+ds_list_destroy(ball_depth_sorted);
+audio_stop_sound(music_instance);
